@@ -35,8 +35,8 @@ class _SecretListenerHomepageState extends State<SecretListenerHomepage> {
         body: Center(
           child: Column(
             children: [
-              Image.network('https://thumbs.dreamstime.com/b/logotipo-de-whatsapp-verde-para-web-y-app-ui-aislado-en-fondo-blanco-png-transparente-265016403.jpg', 
-              height: 300
+              Image.asset('assets/images/whatsapp.png',
+              height: 300,
                     ),
                const Text('Scegli un vocale')
             ],
